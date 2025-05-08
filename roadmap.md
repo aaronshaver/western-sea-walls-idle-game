@@ -20,7 +20,8 @@
 - right align: Reset Game
 
 - No hover effect
-- Clicking a tile immediately pauses the game, brings up a modal Info + actions window
+- Clicking a tile immediately pauses the game + brings up a Vertically centered Bootstrap modal with Info + Actions
+- Do a timed helper toast to tell people to click Tiles (https://getbootstrap.com/docs/5.3/components/toasts/)
 
 - ~ water
 - w basic wall builder
