@@ -1,0 +1,6 @@
+{
+    "name": "Water",
+    "description": "Water tiles are the empty space in the game. Both enemy and friendly units can pass through. And you can build structures on them.",
+    "character": "~",
+    "color": "#0000FF"
+}
