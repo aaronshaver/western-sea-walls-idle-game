@@ -17,7 +17,7 @@
 ## Bottom bar
 
 - left align: Report bug? Suggest feature? Request balance tweak? email: Aaron1Shaver2Eng3@gmail4.com (remove the numbers)
-- right align: Reset Game
+- right align: New Game (with confirmation)
 
 - No hover effect
 - Clicking a tile immediately pauses the game + brings up a Vertically centered Bootstrap modal with Info + Actions
