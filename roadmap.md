@@ -2,7 +2,6 @@
 
 - Bootstrap 5.3.x
 - /tiles folder with JSON data files for Tiles: description, #hex color, isClickable, character/ASCII represent, stats
-- 1 second ticks
 - game.js class that takes arguments but has defaults for grid height/width, tick rate in ms, etc.
 
 - left align: Western Sea Walls: an idle tower defense game
