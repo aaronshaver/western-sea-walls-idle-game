@@ -22,7 +22,7 @@
 
 - ~ water
 - w basic wall builder
-- [ basic wall
+- 1/10/100/etc. wall, where number is the hit points
 - e basic enemy
 - c basic coin
 - m M money towers
