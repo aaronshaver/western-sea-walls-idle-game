@@ -25,4 +25,6 @@
 - [ basic wall
 - e basic enemy
 - c basic coin
-- t basic tower money generator
+- m M money towers
+- b B bomb enemy tile type that does (larger than normal enemy) damage to all tiles around it
+- L laser enemy tiles that shoot a powerful beam in a straight line (then maybe expire?)
