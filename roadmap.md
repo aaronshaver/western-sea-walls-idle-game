@@ -4,11 +4,6 @@
 - game object contains everything else (grid, time speed, money) for easy clearing and saving of data
 - save system: defer until later (will have better idea of what data needs to be saved, etc.)
 
-## Bottom bar
-
-- left align: Report bug? Suggest feature? Request balance tweak? email: Aaron1Shaver2Eng3@gmail4.com (remove the numbers)
-- right align: New Game (with confirmation)
-
 - No hover effect
 - Clicking a tile immediately pauses the game + brings up a Vertically centered Bootstrap modal with Info + Actions
 - Do a timed helper toast to tell people to click Tiles (https://getbootstrap.com/docs/5.3/components/toasts/)

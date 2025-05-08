@@ -1,1 +1,27 @@
 /* Add your custom styles here */
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    padding-bottom: 70px; /* Account for fixed footer height */
+    box-sizing: border-box;
+}
+
+#main-content-area {
+    flex-grow: 1;
+    /* overflow: hidden; */
+    display: flex; /* Allows child to use flex-grow */
+}
+
+#main-content-area .placeholder-glow {
+    flex-grow: 1; /* Takes all space in #main-content-area */
+    display: flex; /* So that the span.placeholder.h-100 works */
+}
+
+#main-content-area .placeholder.w-100.h-100 {
+    border-radius: 0; /* For a clean rectangular block */
+}
