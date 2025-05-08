@@ -1,8 +1,5 @@
 # Roadmap
 
-- Bootstrap 5.3.x
-- do global (html tag) Dark mode color mode via bootstrap (https://getbootstrap.com/docs/5.3/customize/color-modes/)
-- roboto fonts
 - /tiles folder with JSON data files for Tiles: description, #hex color, isClickable, character/ASCII represent, stats
 - game.js class that takes arguments but has defaults for grid height/width, tick rate in ms, etc.
 - game object contains everything else (grid, time speed, money) for easy clearing and saving of data
