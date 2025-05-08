@@ -8,9 +8,31 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Welcome to Western Sea Walls Idle Game</h1>
-    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Western Sea Walls: an idle tower defense game</a>
+            <div class="mx-auto">
+                <span>$dummyMoneyText</span>
+            </div>
+            <div class="d-flex align-items-center">
+                <button class="btn btn-primary me-2" type="button">Pause</button>
+                <div class="dropdown me-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="gameSpeedDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                        Game Speed
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="gameSpeedDropdown">
+                        <li><a class="dropdown-item" href="#">0.25x</a></li>
+                        <li><a class="dropdown-item" href="#">0.5x</a></li>
+                        <li><a class="dropdown-item" href="#">1.0x</a></li>
+                        <li><a class="dropdown-item" href="#">2.0x</a></li>
+                        <li><a class="dropdown-item" href="#">3.0x</a></li>
+                    </ul>
+                </div>
+                <span class="navbar-text">DonateText</span>
+            </div>
+        </div>
+    </nav>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
