@@ -12,7 +12,7 @@
 
 - left align: Western Sea Walls: an idle tower defense game
 - center: $money/score
-- right align: Pause | 0.5x | 1.0x | 2.0x | Donate
+- right align: Pause button ... Game Speed dropdown with 0.25x | 0.5x | 1.0x | 2.0x | 3.0x -- Donate button
 
 ## Bottom bar
 
