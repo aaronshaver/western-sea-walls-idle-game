@@ -11,4 +11,9 @@ describe('Game Object', () => {
     expect(game.grid).not.toBeNull();
     expect(typeof game.grid).toBe('object');
   });
+
+  it('should have a non-null renderer object upon instantiation', () => {
+    const game = new Game();
+    expect(game.renderer).toBeDefined();
+  });
 }); 
