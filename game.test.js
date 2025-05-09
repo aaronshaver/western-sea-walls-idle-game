@@ -16,4 +16,9 @@ describe('Game Object', () => {
     const game = new Game();
     expect(game.renderer).toBeDefined();
   });
+
+  it('should have a default tickTimeInMilliseconds of 2000', () => {
+    const game = new Game();
+    expect(game.tickTimeInMilliseconds).toBe(2000);
+  });
 }); 

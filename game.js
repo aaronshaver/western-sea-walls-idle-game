@@ -6,7 +6,8 @@ class Game {
     this.money = 0;
     this.grid = new Grid();
     this.renderer = new Renderer();
+    this.tickTimeInMilliseconds = 2000;
   }
 }
 
-export default Game; 
+export default Game;
