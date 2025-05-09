@@ -1,14 +1,12 @@
 # Roadmap
 
-- game.js class that takes arguments but has defaults for grid height/width, tick rate in ms, etc.
-- game object contains everything else (grid, time speed, money) for easy clearing and saving of data
 - save system: defer until later (will have better idea of what data needs to be saved, etc.)
 
 - No hover effect
 - Clicking a tile immediately pauses the game + brings up a Vertically centered Bootstrap modal with Info + Actions
-- Do a timed helper toast to tell people to click Tiles (https://getbootstrap.com/docs/5.3/components/toasts/)
+- Do a timed helper Bootstrap toast to tell people to click Tiles (https://getbootstrap.com/docs/5.3/components/toasts/)
+- rendering: Batch the changes inside one requestAnimationFrame callback to avoid repeated reflows
 
-- ~ water
 - w basic wall builder
 - 1/10/100/etc. wall, where number is the hit points
 - e basic enemy
