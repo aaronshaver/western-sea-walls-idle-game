@@ -1,17 +1,21 @@
 # Roadmap
 
-## Animation basic scaffolding
+## Fri 9 May: Animation basic scaffolding
 
 - add failing TDD test and then to Game object: tickLengthInMilliseconds, default 2000
 - Probably don’t need to remove and add divs. Can just check to see if text and/or css class are changing
 - See if water tile CSS can inherit from a generic tile css for borders/etc.
 - water: 25% chance to render dash instead of tilde: will let me test game speed!
 
-## Getting ready for more than just water tiles
+## Mon 12 May: Getting ready for more than just water tiles
 
-- Update design: grid contains generic Tile objects; Water/etc. inherits from Tile; each Tile has add remove functions; enforces max 2 length etc for water plus other tiles; rename existing tile stuff to entity
+- grid contains generic Tile objects;
+- Water/etc. inherits from Tile
+- each Tile has add/remove functions (never removes water)
+- enforces max 2 length etc for water plus other tiles
+- rename existing tile folder/etc. to entities
 
-## Other
+## Medium-term
 
 - Clicking a tile immediately pauses the game + brings up a Vertically centered Bootstrap modal with Info + Actions
 - Do a timed helper Bootstrap toast to tell people to click Tiles (https://getbootstrap.com/docs/5.3/components/toasts/)
@@ -24,12 +28,12 @@
 
 - w basic wall builder
 - 1/10/100/etc. wall, where number is the hit points
-- E basic enemy
+- E enemy
 - R resource tower extracts resources for building and sells resources for money
-- b B bomb enemy tile type that does (larger than normal enemy) damage to all tiles around it
-- L laser enemy tiles that shoot a powerful beam in a straight line (then maybe expire?)
+- B bomb enemy tile type that does (larger than normal enemy) damage to all Player tiles around it
+- S sniper enemy tiles that shoot in a straight line from a distance
 
 ## Long-term
 
-- Should look into the inactive tab pauses game thing; may want to try to prevent that
-- save system: defer until later (will have better idea of what data needs to be saved, etc.)
+- Look into the inactive tab pauses game thing; may want to try to prevent that
+- Save system
