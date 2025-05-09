@@ -20,6 +20,7 @@
 - Update design: grid contains generic Tile objects; Water/etc. inherits from Tile; each Tile has add remove functions; enforces max 2 length etc for water plus other tiles; rename existing tile stuff to entity
 
 - Do text size rather than lower and uppercase for levels of buildings/units
+- Should look into the inactive tab pauses game thing; may want to try to prevent that
 
 - w basic wall builder
 - 1/10/100/etc. wall, where number is the hit points
@@ -27,3 +28,5 @@
 - R resource tower extracts resources for building and sells resources for money
 - b B bomb enemy tile type that does (larger than normal enemy) damage to all tiles around it
 - L laser enemy tiles that shoot a powerful beam in a straight line (then maybe expire?)
+
+- Native Bootstrap Donate button + make sure it opens in new window/tab!
